@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexys Canet | Portfolio de Compétences</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <section class="nav-container">
+            <section class="logo-group">
+                <section class="logo-box">AC</section>
+                <span class="logo-text">Alexys Canet</span>
+            </section>
+            <section class="nav-links">
+                <a href="#accueil">Accueil</a>
+                <a href="#projets">Projets</a>
+                <a href="#competences">Compétences</a>
+                <a href="#contact">Contact</a>
+            </section>
+            <a href="CV_AlexysCanet.pdf" class="btn-cv" download>
+                Télécharger mon CV
+            </a>
+        </section>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-section">
+        <!-- Background elements -->
+        <section class="hero-blobs">
+            <section class="blob blob-blue"></section>
+            <section class="blob blob-indigo"></section>
+        </section>
+
+        <section class="container">
+            <section class="hero-grid">
+                <section>
+                    <span class="badge">
+                        <span class="badge-dot"></span>
+                        Étudiant en BUT Informatique
+                    </span>
+                    <h1 class="hero-title">
+                        L'Esprit d'Équipe <br/>
+                        <span class="gradient-text">au service du Code.</span>
+                    </h1>
+                    <p class="hero-desc">
+                        Rugbyman régional et passionné de développement. Je recherche un 
+                        <span class="hero-highlight">stage de 10 semaines</span> 
+                        (Avril 2026) et une alternance pour l'année 2026/2027.
+                    </p>
+                    <section class="hero-actions">
+                        <a href="#projets" class="btn-secondary">
+                            Voir mes Projets <i class="fas fa-arrow-right text-sm"></i>
+                        </a>
+                        <section class="social-links">
+                            <a href="https://forge.univ-lyon1.fr/p2405282" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/alexys-canet" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </section>
+                    </section>
+                </section>
+
+                <!-- Rugby Ball Graphic -->
+                <section class="rugby-container">
+                    <section class="rugby-simple-card">
+                        <i class="fas fa-rugby-ball rugby-icon-large"></i>
+                        <h3 class="rugby-title">Passion Rugby</h3>
+                        <p class="rugby-desc">
+                            12 ans de pratique en club.<br>
+                            Engagement, Collectif, Respect.
+                        </p>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <section class="container">
+            <section class="stats-grid">
+                <section class="stat-card">
+                    <section class="stat-icon blue">
+                        <i class="fas fa-users-viewfinder"></i>
+                    </section>
+                    <section class="stat-value">Rugby</section>
+                    <section class="stat-label">Esprit d'équipe</section>
+                </section>
+                <section class="stat-card">
+                    <section class="stat-icon amber">
+                        <i class="fas fa-code"></i>
+                    </section>
+                    <section class="stat-value">4+ Projets</section>
+                    <section class="stat-label">Réalisations</section>
+                </section>
+                <section class="stat-card">
+                    <section class="stat-icon emerald">
+                        <i class="fas fa-microchip"></i>
+                    </section>
+                    <section class="stat-value">8+ Techs</section>
+                    <section class="stat-label">Compétences</section>
+                </section>
+                <section class="stat-card">
+                    <section class="stat-icon rose">
+                        <i class="fas fa-shield-halved"></i>
+                    </section>
+                    <section class="stat-value">100%</section>
+                    <section class="stat-label">Engagement</section>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projets" class="section-padding">
+        <section class="container">
+            <section class="section-header">
+                <section>
+                    <h2 class="section-title">Réalisations & SAÉ</h2>
+                    <p class="section-subtitle">Découvrez mes projets académiques récents et les technologies que j'ai mobilisées.</p>
+                </section>
+                <section class="filter-box">
+                    <button class="filter-btn active">Tous</button>
+                    <button class="filter-btn">Développement</button>
+                </section>
+            </section>
+
+            <section class="projects-grid">
+                <!-- NeuroDidacte -->
+                <section class="project-card">
+                    <section class="card-badge">
+                        Prix spécial du Jury
+                    </section>
+                    <section class="card-icon blue">
+                        <i class="fas fa-brain text-2xl"></i>
+                    </section>
+                    <h3 class="card-title">NeuroDidacte</h3>
+                    <p class="card-desc">Application innovante en Python/JS. Finaliste national, ce projet a marqué mon année par sa complexité et son succès régional.</p>
+                    <section class="card-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Web</span>
+                        <span class="tag">Git</span>
+                    </section>
+                    <a href="https://forge.apps.education.fr/cedric.frayssinet/2024-tropheesnsi-lmd/-/tree/main/NeuroDidacte" class="card-link">
+                        Consulter la trace <i class="fas fa-arrow-right"></i>
+                    </a>
+                </section>
+
+                <!-- Astuschool -->
+                <section class="project-card">
+                    <section class="card-icon emerald">
+                        <i class="fas fa-school text-2xl"></i>
+                    </section>
+                    <h3 class="card-title">Astuschool</h3>
+                    <p class="card-desc">Plateforme web complète développée en PHP pour faciliter la vie quotidienne des étudiants.</p>
+                    <section class="card-tags">
+                        <span class="tag">Web</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Git</span>
+                    </section>
+                    <a href="https://forge.univ-lyon1.fr/p2401171/astuschool" class="card-link">
+                        Consulter la trace <i class="fas fa-arrow-right"></i>
+                    </a>
+                </section>
+
+                <!-- Fête des Lumières -->
+                <section class="project-card">
+                    <section class="card-icon purple">
+                        <i class="fas fa-lightbulb text-2xl"></i>
+                    </section>
+                    <h3 class="card-title">Fête des Lumières</h3>
+                    <p class="card-desc">Algorithme d'optimisation de chemin développé en JAVA pour un événement d'envergure.</p>
+                    <section class="card-tags">
+                        <span class="tag">JAVA</span>
+                        <span class="tag">Algorithmique</span>
+                        <span class="tag">Git</span>
+                    </section>
+                    <a href="https://forge.univ-lyon1.fr/p2405282/sae_s2_groupe3" class="card-link">
+                        Consulter la trace <i class="fas fa-arrow-right"></i>
+                    </a>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!-- Portfolio Section (Skills Table) -->
+    <section id="competences" class="section-padding bg-light">
+        <section class="container">
+            <section class="mb-large">
+                <h2 class="section-title">Portefeuille de Compétences</h2>
+                <p class="section-subtitle">Conformément au référentiel du BUT Informatique, voici l'analyse de mes acquis.</p>
+            </section>
+
+            <section class="table-container">
+                <section class="table-scroll">
+                    <table class="skills-table">
+                        <thead class="table-head">
+                            <tr>
+                                <th>Compétences du Référentiel</th>
+                                <th>Apprentissage Critique (AC)</th>
+                                <th>Preuves & Traces</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-row">
+                                <td class="table-cell">
+                                    <section class="cell-title">
+                                        <i class="fas fa-code-commit text-blue-500"></i>
+                                        Réaliser un développement
+                                    </section>
+                                </td>
+                                <td class="table-cell cell-desc">
+                                    Concevoir, coder, tester et déployer une solution logicielle performante.
+                                </td>
+                                <td class="table-cell">
+                                    <section class="card-tags">
+                                        <span class="tag">NeuroDidacte</span>
+                                        <span class="tag">Annuaire C</span>
+                                    </section>
+                                </td>
+                            </tr>
+                            <tr class="table-row">
+                                <td class="table-cell">
+                                    <section class="cell-title">
+                                        <i class="fas fa-bolt-lightning text-amber-500"></i>
+                                        Optimiser des solutions
+                                    </section>
+                                </td>
+                                <td class="table-cell cell-desc">
+                                    Analyser et améliorer la performance des algorithmes et du code.
+                                </td>
+                                <td class="table-cell">
+                                    <section class="card-tags">
+                                        <span class="tag">Fête des Lumières</span>
+                                    </section>
+                                </td>
+                            </tr>
+                            <tr class="table-row">
+                                <td class="table-cell">
+                                    <section class="cell-title">
+                                        <i class="fas fa-database text-emerald-500"></i>
+                                        Gérer des données
+                                    </section>
+                                </td>
+                                <td class="table-cell cell-desc">
+                                    Concevoir et manipuler des bases de données relationnelles sécurisées.
+                                </td>
+                                <td class="table-cell">
+                                    <section class="card-tags">
+                                        <span class="tag">Astuschool</span>
+                                    </section>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <section class="container">
+            <h2 class="footer-quote">"Ensemble, allons plus loin."</h2>
+            <p class="footer-text">
+                N'hésitez pas à me contacter pour échanger sur mon profil ou vos projets.
+            </p>
+
+            <section class="contact-grid">
+                <section class="contact-card">
+                    <section class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </section>
+                    <section class="contact-label">Email</section>
+                    <section class="contact-value">alexys.canet@gmail.com</section>
+                </section>
+                <section class="contact-card">
+                    <section class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </section>
+                    <section class="contact-label">Téléphone</section>
+                    <section class="contact-value">07 67 96 09 88</section>
+                </section>
+            </section>
+
+            <section class="footer-social">
+                <a href="https://forge.univ-lyon1.fr/p2405282" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/alexys-canet" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </section>
+
+            <section class="copyright">
+                &copy; 2025 Alexys Canet • Portefeuille de Compétences
+            </section>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

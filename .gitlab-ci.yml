@@ -1,0 +1,12 @@
+image: node:lts
+
+pages:
+  stage: deploy
+  script:
+    - echo "Préparation du site..."
+    # Si vos fichiers sont déjà dans un dossier nommé 'public', on ne touche à rien.
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH'
